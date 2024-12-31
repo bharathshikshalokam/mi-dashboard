@@ -1,0 +1,53 @@
+<div class="district-container">
+  <div class="my-4 ml-2 gap-7 d-flex align-items-center justify-content-between district-div">
+      <div  *ngIf="district?.image" class="container-sm image-container" >
+        <img class="img-district" src="{{ url + district?.image[0] }}" />
+      </div>
+      <div *ngIf="!district?.image" class="container-sm image-container">
+          <img class="img-district" src="../../assets/images/no-image.png" />
+      </div>
+      <div class="gap-2 d-flex flex-column">
+        <div *ngIf="selectedDistrict" class="breadcrumbs">
+          <span (click)="onClick('India')" *ngIf="selectedState">India</span>
+          <span (click)="onClick('State')" *ngIf="selectedState">
+            > {{breadCrumb}}</span>
+          <span *ngIf="selectedDistrict"> > {{selectedDistrict}}</span>
+        </div>
+          <div class="static-card blue-back">
+            <span>
+                Schools Reached:
+            </span>
+            <span>
+                {{district?.ProgramParameters?.SchoolsReached ? district.ProgramParameters.SchoolsReached : 0}}
+            </span>
+          </div>
+          <div class="static-card blue-light">
+                <span>
+                    Students Reached:
+                </span>
+                <span>
+                    {{district?.ProgramParameters?.SchoolsReached ? district.ProgramParameters.StudentsReached : 0}}
+                </span>
+          </div>
+          <div class="static-card blue-light-alter">
+                <span>
+                    Micro-improvements Triggered:
+                </span>
+                <span>
+                    {{district?.ProgramParameters?.SchoolsReached ? district.ProgramParameters.MicroImprovementsTriggered : 0}}
+                </span>
+          </div>
+         
+      </div>
+  </div>
+
+  <div class="gap-2 flex-column d-flex ">
+    <div class="gap-2 justify-content-start d-flex partner">
+   
+    <span class="flex-wrap d-flex align-items-center" >Shikshagrāha Partner : <a class="mx-3" href={{district?.Partner_Link}} target="_blank"><img alt="logo" src="{{ url + district?.Partner_Logo }}" /></a></span>
+    </div>
+   
+    <p >{{district?.Partner_Description}}</p>
+  </div>
+ 
+</div>

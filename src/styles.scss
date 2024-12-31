@@ -1,0 +1,101 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~swiper/swiper-bundle.min.css";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color1: #fff;
+  --color2: #93c6d2;
+  --color3: #278ea6;
+  --color4: #358a9b;
+  --color5: #0f3640;
+  --color6: #cdedfb;
+  --color7: #e6f6fd;
+  --white: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: -1rem;
+  // padding: 1.2rem;
+}
+.container-lgg {
+  // max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  // padding-top: 2rem;
+}
+
+body {
+  // font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0 !important;
+  background-color: var(--color1);
+}
+
+.animate {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1.2s ease-out;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    // padding-top: 0.8rem;
+    padding-top: 1rem;
+  }
+
+  .container-lg {
+    // padding-top: 1.5rem;
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .container-lg {
+    padding-top: 0;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .container-lg {
+    padding-top: 0;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+}

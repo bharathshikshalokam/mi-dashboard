@@ -1,0 +1,210 @@
+.map {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.mapdiv {
+  margin: auto;
+}
+
+.path1 {
+  fill: var(--color6);
+  stroke: #fff;
+  stroke-width: 5;
+}
+
+.path2 {
+  // cursor: pointer;
+
+  fill: var(--color3);
+}
+
+.jkspetial {
+  // cursor: pointer;
+
+  fill: var(--color3);
+}
+
+.fadedJkspetial {
+  cursor: pointer;
+  stroke: #fff;
+  stroke-width: 5;
+  fill: var(--color3);
+
+  &:hover {
+    fill: var(--color4);
+  }
+}
+
+.fadedJkspetialS {
+  cursor: pointer;
+  stroke: #fff;
+  stroke-width: 5;
+  fill: var(--color1);
+
+  &:hover {
+    fill: var(--color2);
+  }
+}
+
+.box {
+  position: relative;
+}
+
+.map_box {
+  text-align: end;
+  height: 5rem;
+
+  &--details {
+    border-radius: 1rem;
+    background-color: rgba(143, 196, 231, 0.603);
+    // max-width: 100%;
+    min-width: 50%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  &--state {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(69, 8, 236, 0.938);
+  }
+}
+
+svg {
+  color: #f5faff !important;
+}
+
+.color-states {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.active {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  color: var(--color4);
+}
+
+.active-states {
+  background-color: var(--color4);
+  width: 15px;
+  height: 15px;
+}
+
+.non-active {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  color: var(--color2);
+}
+
+.non-active-states {
+  background-color: var(--color2);
+  width: 15px;
+  height: 15px;
+}
+
+.totalstates {
+  position: absolute;
+  right: 5%;
+  bottom: -5%;
+  font-size: 1rem;
+  display: flex;
+  gap: 0.3rem;
+  flex-direction: column;
+  color: var(--color4);
+}
+
+.typewriter h1 {
+  color: var(--color5);
+  font-family: "open sans";
+  font-size: 0.6rem;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0;
+  margin-bottom: 2rem;
+  margin-right: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .map svg {
+    height: 200px;
+  }
+
+  .active span {
+    font-size: 0.8rem;
+  }
+
+  .non-active span {
+    font-size: 0.8rem;
+  }
+
+  .typewriter h1 {
+    font-size: 0.8rem;
+  }
+
+  .totalstates {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .typewriter h1 {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+// @keyframes typing {
+//   from {
+//     margin: auto;
+//     width: 0;
+//   }
+//   to {
+//     margin-top: 0;
+//     margin: auto;
+//     width: 50%;
+//   }
+// }
+
+// @keyframes blink-caret {
+//   from,
+//   to {
+//     border-color: transparent;
+//   }
+//   50% {
+//     border-color: #00254d;
+//   }
+// }
+
+.unclickable {
+  cursor: not-allowed;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.gray {
+  fill: #f5f5f5;
+
+  background-color: #f5f5f5;
+  cursor: default;
+
+  &:hover {
+    fill: #f5f5f5;
+
+    cursor: default;
+    background-color: #f5f5f5;
+  }
+}
