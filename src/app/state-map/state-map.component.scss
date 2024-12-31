@@ -1,0 +1,110 @@
+p {
+  font-family: Lato;
+}
+
+.path1 {
+  // position: absolute;
+  fill: rgba(65, 170, 240, 0.678);
+  stroke: #ffff;
+  stroke-width: 2;
+  cursor: pointer;
+  stroke-opacity: 1;
+  pointer-events: all;
+  &:hover {
+    fill: rgb(216, 156, 101);
+  }
+  &--boundary {
+    stroke: rgba(61, 7, 255, 0.188);
+  }
+}
+
+/* state-map.component.scss */
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+#map-holder {
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: -11rem;
+}
+
+#map-holder svg {
+  position: relative;
+}
+
+.loading {
+  color: var(--color4);
+}
+
+@media screen and (max-width: 767px) {
+  #svg {
+    width: 350px !important;
+    height: 300px !important;
+  }
+  .state-map-container {
+    height: 320px;
+    width: 100%;
+  }
+  #map-holder {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .state-map-container {
+    height: 540px;
+    width: 150%;
+    margin-bottom: 8rem;
+  }
+  #map-holder {
+    max-width: 470px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #map-holder {
+    max-width: 370px;
+  }
+}
+
+.animate {
+  animation-duration: 0.75s;
+  animation-delay: 0.5s;
+  animation-name: animate-fade;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-fill-mode: backwards;
+}
+
+/* Glow In */
+.animate.glow {
+  animation-name: animate-glow;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate-glow {
+  0% {
+    opacity: 0;
+    filter: brightness(3) saturate(3);
+    transform: scale(0.8, 0.8);
+  }
+  100% {
+    opacity: 1;
+    filter: brightness(1) saturate(1);
+    transform: scale(1, 1);
+  }
+}
+
+.delay-1 {
+  animation-delay: 0.3s;
+}

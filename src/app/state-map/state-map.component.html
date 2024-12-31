@@ -1,0 +1,15 @@
+<!-- state-map.component.html -->
+<div class="state-map-container animate glow delay-1">
+  <div class="mt-3 map-data loading" *ngIf="loadingStateComponent">
+    <!-- Loading States Data... -->
+    <mat-spinner></mat-spinner>
+
+  </div>
+  <div >
+    <div id="map-holder">
+      <svg id="svg" viewBox="0 0 960 550" preserveAspectRatio="xMidYMid"></svg>
+    </div>
+  </div>
+ 
+</div>
+<!-- <div id="tooltip" class="tooltip"></div> -->

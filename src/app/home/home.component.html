@@ -1,0 +1,191 @@
+<div class="container container-fluid">
+  <div class="img-logo animate delay-1">
+    <img  src="{{ url + logo }}" />
+  </div>
+  <div class=" map-data">
+    <div class="animate delay-2 upper-static-data">
+      <div class="mb-3 auto-margin ">
+        <h1 class="h3 overview">{{!selectedState ? 'National Overview' : !selectedDistrict ? "State Overview" : 'District Overview'}}</h1>
+      </div>
+      <div class="delay-2">
+        <div class="static-data">
+      
+          <div *ngIf="!districtReached" class="static-card blue-light">
+            <span>
+              Total Districts:
+            </span>
+            <span>{{
+              convertToIndianNumberingSystem(InitialEducationalParameters?.Districts
+              ? InitialEducationalParameters?.Districts
+              : 0)
+              }}</span>
+      
+          </div>
+          <div *ngIf="districtReached" class="static-card blue-light">
+            <span></span>
+            <span>
+              {{
+              InitialEducationalParameters?.Type
+              ? InitialEducationalParameters?.Type
+              : 'Type'
+              }}
+            </span>
+          </div>
+          <div class="static-card blue-light-alter">
+            <span>Total Schools:</span>
+            <span>{{
+              convertToIndianNumberingSystem(InitialEducationalParameters?.TotalSchools
+              ? InitialEducationalParameters?.TotalSchools
+              : 0)
+      
+              }}</span>
+          </div>
+          <div class="static-card blue-back">
+            <span>Total Students:</span>
+            <span>
+              {{
+              convertToIndianNumberingSystem(InitialEducationalParameters?.TotalStudents
+              ? InitialEducationalParameters?.TotalStudents
+              : 0)
+              }}
+            </span>
+          </div>
+          <div class="static-card blue-light">
+            <span>NAS(Grade 3):</span>
+      
+            <span>
+              {{ InitialEducationalParameters?.NAS_Grade3 ? InitialEducationalParameters?.NAS_Grade3 : 0 }}
+            </span>
+      
+          </div>
+          <div class="static-card blue-light-alter">
+            <span>NAS(Grade 5):</span>
+      
+            <span>
+              {{ InitialEducationalParameters?.NAS_Grade5 ? InitialEducationalParameters?.NAS_Grade5 : 0 }}
+            </span>
+      
+          </div>
+          <div class="static-card blue-back">
+            <span>NAS(Grade 8):</span>
+      
+            <span>
+              {{ InitialEducationalParameters?.NAS_Grade8 ? InitialEducationalParameters?.NAS_Grade8 : 0 }}
+            </span>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <!-- educational parameters -->
+    
+
+    <!-- map and program -->
+    <div class="map-data-flex">
+      <div class="components animate delay-3">
+        <app-india-map *ngIf="!selectedState" (notifyParent)="onStateClickHandler($event)"
+          (mouseIn)="onMouseInHandler($event)" (mouseout)="onStateMouseOutHandler($event)"
+          (stateHover)="onStateHover($event)" [jsonData]="jsonData"></app-india-map>
+        <app-state-map (notifyParent)="onDistrictClickHandler($event)" *ngIf="selectedState && !selectedDistrict "
+          [state]="selectedState" (districtHover)="onDistrictHover($event)"
+          (mouseout)="onDistrictMouseOutHandler($event)" (districtColor)="getColorBasedOnDistricts($event)"
+          [districtCol]="districtColor">
+        </app-state-map>
+        <app-district-page [district]="districtData" [selectedState]="selectedState" [breadCrumb]="breadCrumb"
+          [selectedDistrict]="selectedDistrict" *ngIf="selectedDistrict" (back)="backToCountryHandler($event)">
+        </app-district-page>
+      </div>
+      <div class="bottom-dynamic-data animate delay-3">
+        <div *ngIf="!selectedDistrict" class="breadcrumbs">
+          <span (click)="backToCountryHandler('India')" *ngIf="selectedState">India</span>
+          <span (click)="backToCountryHandler('State')" *ngIf="selectedState">
+            > {{breadCrumb}}</span>
+          <span *ngIf="selectedDistrict"> > {{selectedDistrict}}</span>
+        </div>
+        <ul class="dynamic-data" *ngIf="!selectedDistrict">
+
+          <li *ngIf="!districtReached" class="dynamic-card blue-light">
+            <span>{{
+              InitialProgramParameters?.ShikshagrahaDistricts
+              ? InitialProgramParameters?.ShikshagrahaDistricts
+              : 0
+              }}</span>
+            <span>
+              Shikshagrāha Districts
+            </span>
+          </li>
+          <li *ngIf="!districtReached" class="dynamic-card blue-light">
+            <span>
+              {{
+              InitialProgramParameters?.ShikshagrahaPartners
+              ? InitialProgramParameters?.ShikshagrahaPartners
+              : 0
+              }}
+            </span>
+            <span>
+              Shikshagrāha Partners</span>
+          </li>
+          <li *ngIf="districtReached" class="dynamic-card bullet-brown-dark blue-light-alter ">
+            <span>{{
+              InitialProgramParameters?.ShikshagrahaPartner
+              ? InitialProgramParameters?.ShikshagrahaPartner
+              : 0
+              }}</span>
+            <span>
+              Shikshagrāha Partners</span>
+          </li>
+          <li *ngIf="!districtReached" class="dynamic-card bullet-brown-darker blue-light-alter ">
+            <span>
+              {{
+              InitialProgramParameters?.ProgramsStarted
+              ? InitialProgramParameters?.ProgramsStarted
+              : 0
+              }}
+            </span>
+            <span>
+              Program Started</span>
+          </li>
+          <li class="dynamic-card bullet-brown-light blue-light-alter">
+            <span>
+              {{
+              InitialProgramParameters?.SchoolsReached
+              ? InitialProgramParameters?.SchoolsReached
+              : 0
+              }}
+            </span>
+            <span>
+              Schools Reached</span>
+          </li>
+          <li class="dynamic-card bullet-brown-darker blue-back ">
+            <span>
+              {{convertToIndianNumberingSystem(
+              InitialProgramParameters?.MicroImprovementsTriggered
+              ? InitialProgramParameters?.MicroImprovementsTriggered
+              : 0
+              )}}
+            </span>
+            <span>
+              Micro-improvements Triggered
+            </span>
+          </li>
+          <li class="dynamic-card bullet-brown-medium blue-back ">
+            <span>{{convertToIndianNumberingSystem(
+              InitialProgramParameters?.StudentsReached
+              ? InitialProgramParameters?.StudentsReached
+              : 0
+            )}}</span>
+            <span>
+              Students Reached</span>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div *ngIf="!selectedState" class="typewriter">
+    <h1>Click on any state for navigation</h1>
+  </div> -->
+</div>

@@ -1,0 +1,1203 @@
+{
+  "India": {
+    "EducationalParameters": {
+      "TotalStates": 14,
+      "Districts": 750,
+      "NAS_Grade3": 59,
+      "NAS_Grade5": 49,
+      "NAS_Grade8": 41.9,
+      "TotalSchools": 1489000,
+      "TotalStudents": 265200000
+    },
+    "ProgramParameters": {
+      "ShikshagrahaDistricts": 74,
+      "ShikshagrahaPartners": 18,
+      "ProgramsStarted": 90,
+      "SchoolsReached": 95398,
+      "StudentsReached": 30416435,
+      "EducationalLeadersInvolved": 0,
+      "MicroImprovementsTriggered": 548539
+    },
+    "States": [
+      {
+        "EducationalParameters": {
+          "Districts": 11,
+          "NAS_Grade3": 55.3,
+          "NAS_Grade5": 44.1,
+          "NAS_Grade8": 41.5,
+          "TotalSchools": 1960,
+          "TotalStudents": 170219
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 11,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 2,
+          "SchoolsReached": 1932,
+          "StudentsReached": 141856,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 15000
+        },
+        "StateName": "Nagaland",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 35.6,
+              "NAS_Grade3": 52.8,
+              "NAS_Grade8": 34.2,
+              "TotalSchools": 196,
+              "TotalStudents": 51860
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "ShikshaLokam",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Mon",
+            "Partner": "ShikshaLokam",
+            "Partner_Logo": "Shikshalokam.webp",
+            "Partner_Link": "https://shikshalokam.org/",
+            "Partner_Description": "ShikshaLokam collaborates with education authorities like DoSEL, MoE, NCERT, CBSE, and NCTE to enhance educational leadership, governance, and monitoring systems. Through initiatives like the Vidya Amrit Initiative and DIKSHA, they aim to improve education quality and access. Additionally, partnerships with CBSE and NCTE facilitate the implementation of frameworks like School Quality Assessment and the National Mission on Mentoring, contributing to comprehensive educational development."
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 38,
+              "NAS_Grade3": 45.6,
+              "NAS_Grade8": 39.9,
+              "TotalSchools": 126,
+              "TotalStudents": 21428
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "ShikshaLokam",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Peren",
+            "Partner": "ShikshaLokam",
+            "Partner_Logo": "Shikshalokam.webp",
+            "Partner_Link": "https://shikshalokam.org/",
+            "Partner_Description": "ShikshaLokam collaborates with education authorities like DoSEL, MoE, NCERT, CBSE, and NCTE to enhance educational leadership, governance, and monitoring systems. Through initiatives like the Vidya Amrit Initiative and DIKSHA, they aim to improve education quality and access. Additionally, partnerships with CBSE and NCTE facilitate the implementation of frameworks like School Quality Assessment and the National Mission on Mentoring, contributing to comprehensive educational development."
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational & Tribal District",
+              "NAS_Grade5": 39,
+              "NAS_Grade3": 40.2,
+              "NAS_Grade8": 37.2,
+              "TotalSchools": 98,
+              "TotalStudents": 16694
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "ShikshaLokam",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Kiphire",
+            "Partner": "ShikshaLokam",
+            "Partner_Logo": "Shikshalokam.webp",
+            "Partner_Link": "https://shikshalokam.org/",
+            "Partner_Description": "ShikshaLokam collaborates with education authorities like DoSEL, MoE, NCERT, CBSE, and NCTE to enhance educational leadership, governance, and monitoring systems. Through initiatives like the Vidya Amrit Initiative and DIKSHA, they aim to improve education quality and access. Additionally, partnerships with CBSE and NCTE facilitate the implementation of frameworks like School Quality Assessment and the National Mission on Mentoring, contributing to comprehensive educational development."
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 41.8,
+              "NAS_Grade3": 50.7,
+              "NAS_Grade8": 37.1,
+              "TotalSchools": 181,
+              "TotalStudents": 37914
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "ShikshaLokam",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Tuensang",
+            "Partner": "ShikshaLokam",
+            "Partner_Logo": "Shikshalokam.webp",
+            "Partner_Link": "https://shikshalokam.org/",
+            "Partner_Description": "ShikshaLokam collaborates with education authorities like DoSEL, MoE, NCERT, CBSE, and NCTE to enhance educational leadership, governance, and monitoring systems. Through initiatives like the Vidya Amrit Initiative and DIKSHA, they aim to improve education quality and access. Additionally, partnerships with CBSE and NCTE facilitate the implementation of frameworks like School Quality Assessment and the National Mission on Mentoring, contributing to comprehensive educational development."
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 26,
+          "NAS_Grade3": 47.3,
+          "NAS_Grade5": 43.1,
+          "NAS_Grade8": 41.3,
+          "TotalSchools": 2985,
+          "TotalStudents": 233908
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 1,
+          "SchoolsReached": 30,
+          "StudentsReached": 4000,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "StateName": "Arunachal Pradesh",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "Tribal district",
+              "NAS_Grade5": 44.9,
+              "NAS_Grade3": 47,
+              "NAS_Grade8": 34.7,
+              "TotalSchools": 40,
+              "TotalStudents": 35358
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "IFET",
+              "SchoolsReached": 30,
+              "StudentsReached": 4000,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Changlang",
+            "Partner": "IFET",
+            "Partner_Logo": "Copy of IFET logo.png",
+            "Partner_Link": "https://www.linkedin.com/company/india-foundation-for-education-transformation/?originalSubdomain=in",
+            "Partner_Description": "IFET champions student success by acknowledging challenges and motivating teachers to create achievement-focused classrooms. They prioritize equity, offering individualized care for holistic student development in engaging learning environments. IFET's approach instills values, fosters curiosity, and cultivates purpose for students' academic and personal growth.",
+            "image": [
+              "IFET-4.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 31,
+          "NAS_Grade3": 61.2,
+          "NAS_Grade5": 51.9,
+          "NAS_Grade8": 40.4,
+          "TotalSchools": 45490,
+          "TotalStudents": 5277671
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 3,
+          "SchoolsReached": 63,
+          "StudentsReached": 2520,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 2
+        },
+        "StateName": "Assam",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 42.5,
+              "NAS_Grade3": 51.2,
+              "NAS_Grade8": 34.9,
+              "TotalSchools": 840,
+              "TotalStudents": 125006
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "-",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Chirang",
+            "Partner": "Sunbird Trust",
+            "Partner_Logo": "Sunbird.png",
+            "Partner_Link": "https://sunbirdtrust.com/"
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Tribal District",
+              "NAS_Grade5": 50.9,
+              "NAS_Grade3": 69,
+              "NAS_Grade8": 40.4,
+              "TotalSchools": 1206,
+              "TotalStudents": 219607
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "NEAID",
+              "SchoolsReached": 63,
+              "StudentsReached": 2520,
+              "MicroImprovementsTriggered": 2
+            },
+            "DistrictName": "Morigaon",
+            "Partner": "NEAID",
+            "Partner_Logo": "Copy of NEAID.png",
+            "Partner_Link": "https://www.neaid.org/",
+            "Partner_Description": "NEAID's program addresses educational development comprehensively, creating effective school ecosystems, enhancing teacher professionalism, and nurturing students' holistic development. The organization supports school leadership, facilitates teachers' growth, adheres to FLN guidelines, and fosters collaboration within the school community. NEAID aims to empower both students and educators, fostering a conducive learning environment for thriving education.",
+            "image": [
+              "NEAID3.jpeg"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 53.6,
+              "NAS_Grade3": 60.2,
+              "NAS_Grade8": 39.6,
+              "TotalSchools": 1463,
+              "TotalStudents": 226579
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "-",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Kokrajhar",
+            "Partner": "Sunbird Trust"
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 12,
+          "NAS_Grade3": 56,
+          "NAS_Grade5": 44.7,
+          "NAS_Grade8": 42.6,
+          "TotalSchools": 15380,
+          "TotalStudents": 900749
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "StateName": "Himachal Pradesh",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 44.9,
+              "NAS_Grade3": 56.4,
+              "NAS_Grade8": 44.3,
+              "TotalSchools": 1660,
+              "TotalStudents": 247134
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Aavishkaar",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Kangra",
+            "Partner": "Aavishkaar",
+            "Partner_Logo": "Copy of avishkar-new-logo.png",
+            "Partner_Link": "https://aavishkaarcenter.org/",
+            "Partner_Description": "Aavishkar's program strives to cultivate a robust STEM environment in schools. They provide comprehensive support in Math and Science education for both students and teachers. Through innovative teaching practices and leadership development, Aavishkar aims to bridge knowledge gaps, promote holistic student development, and foster critical thinking skills, nurturing future citizens who are curious and creative.",
+            "image": [
+              "AAvishkaar.png"
+            ]
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 27,
+          "NAS_Grade3": 48.8,
+          "NAS_Grade5": 41.8,
+          "NAS_Grade8": 38,
+          "TotalSchools": 48743,
+          "TotalStudents": 4262053
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 2,
+          "ShikshagrahaPartners": 2,
+          "ProgramsStarted": 1,
+          "SchoolsReached": 661,
+          "StudentsReached": 11957,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 7
+        },
+        "StateName": "Chhattisgarh",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational & Tribal District",
+              "NAS_Grade5": 35.6,
+              "NAS_Grade3": 45,
+              "NAS_Grade8": 32.4,
+              "TotalSchools": 1574,
+              "TotalStudents": 50016
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Shiksharth",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Sukma",
+            "Partner": "Shiksharth",
+            "Partner_Logo": "Copy of shikshartha.png",
+            "Partner_Link": "https://shiksharth.in/",
+            "image": [
+              "Shiksharth1.jpg"
+            ],
+            "Partner_Description": "Shiksharth is a not-for-profit educational initiative designing and implementing contextualised positive childhood experiences for children from spaces of conflict and adversity by strengthening pedagogy, systems and community in an integrated approach."
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational & Tribal District",
+              "NAS_Grade5": 35.6,
+              "NAS_Grade3": 47.3,
+              "NAS_Grade8": 34.7,
+              "TotalSchools": 1234,
+              "TotalStudents": 116429
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "-",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Kondagaon",
+            "Partner": "-"
+          },
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 43.9,
+              "NAS_Grade3": 44.8,
+              "NAS_Grade8": 40.9,
+              "TotalSchools": 2406,
+              "TotalStudents": 524786
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "EduWeave",
+              "SchoolsReached": 661,
+              "StudentsReached": 11957,
+              "MicroImprovementsTriggered": 7
+            },
+            "DistrictName": "Raipur",
+            "Partner": "EduWeave",
+            "Partner_Logo": "Copy of Edweave foundation.jfif",
+            "Partner_Link": "https://eduweavefoundation.org/",
+            "Partner_Description": "EduWeave ensures readiness of children for school by enhancing foundational skills in Anganwadis. They empower stakeholders in Early Childhood Care and Education (ECCE), fostering a shared vision. Working with teachers on curriculum and pedagogy, Edu Weave ensures the effective implementation of developmentally appropriate experiences for holistic child development.",
+            "image": [
+              "Eduweave.jpeg"
+            ]
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 24,
+          "NAS_Grade3": 54.9,
+          "NAS_Grade5": 46.1,
+          "NAS_Grade8": 41.5,
+          "TotalSchools": 35840,
+          "TotalStudents": 5242868
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 2,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "StateName": "Jharkhand",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational District",
+              "NAS_Grade5": 37.2,
+              "NAS_Grade3": 52.2,
+              "NAS_Grade8": 35.6,
+              "TotalSchools": 1693,
+              "TotalStudents": 227183
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "-",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Gumla",
+            "Partner": "Prajayatna",
+            "Partner_Logo": "Copy of Prajayatna logo.jpg",
+            "Partner_Link": "https://www.prajayatna.in/",
+            "image": [
+              "Prajayatna_Jharkhand.png"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational & Tribal District",
+              "NAS_Grade5": 42.6,
+              "NAS_Grade3": 54,
+              "NAS_Grade8": 38.4,
+              "TotalSchools": 503,
+              "TotalStudents": 80564
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Prajayatna",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Lohardaga",
+            "Partner": "Prajayatna",
+            "Partner_Link": "https://prajayatna.in/",
+            "Partner_Logo": "Prajayatna-logo.jpg",
+            "Partner_Description": "Prajayatna has been working for the past 15 years to bring about systemic changes in education and thereby ensuring quality education for all children. Prajayatna has understood the lack of ownership of schools as core to the many issues facing the school.Towards this, Prajayatna has worked intensively with communities, the Department of Education, the Department of Women and Child Development and the Panchayat Raj, towards institutionalising community ownership of the education development process.",
+            "image": [
+              "prajayanta_chattisgarh.jpeg"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational & Tribal District",
+              "NAS_Grade5": 40.6,
+              "NAS_Grade3": 47.9,
+              "NAS_Grade8": 35.1,
+              "TotalSchools": 1265,
+              "TotalStudents": 225751
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Prajayatna",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Sahibganj",
+            "Partner": "Prajayatna",
+            "Partner_Logo": "Prajayatna-logo.jpg",
+            "Partner_Link": "https://prajayatna.in/",
+            "Partner_Description": "Prajayatna has been working for the past 15 years to bring about systemic changes in education and thereby ensuring quality education for all children. Prajayatna has understood the lack of ownership of schools as core to the many issues facing the school.Towards this, Prajayatna has worked intensively with communities, the Department of Education, the Department of Women and Child Development and the Panchayat Raj, towards institutionalising community ownership of the education development process.",
+            "image": [
+              "prajayanta_chattisgarh.jpeg"
+            ]
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 30,
+          "NAS_Grade3": 61.3,
+          "NAS_Grade5": 49.4,
+          "NAS_Grade8": 42.5,
+          "TotalSchools": 49072,
+          "TotalStudents": 5255198
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "StateName": "Odisha",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational",
+              "NAS_Grade5": 41.9,
+              "NAS_Grade3": 69,
+              "NAS_Grade8": 44.5,
+              "TotalSchools": 2016,
+              "TotalStudents": 272549
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Odisha rising foundation",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Kalahandi",
+            "Partner": "Odisha rising foundation",
+            "Partner_Logo": "odhisa.jpeg",
+            "Partner_Link": "https://odisharising.in/",
+            "Partner_Description": "Started in 2018, in rural Odisha's heartlands, where tribal communities urgently need educational support. ORF’s initiative introduces a tailored STEM Education Program to all schools in Kalahandi District. ORF aims not only to teach but to inspire a love for learning, preparing students for a tech-driven world.",
+            "image": [
+              "orf2.png"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational & Tribal District",
+              "NAS_Grade5": 42.8,
+              "NAS_Grade3": 61.5,
+              "NAS_Grade8": 40.6,
+              "TotalSchools": 840,
+              "TotalStudents": 256390
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Odisha rising foundation",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Koraput",
+            "Partner": "Odisha rising foundation",
+            "Partner_Logo": "odhisa.jpeg",
+            "Partner_Link": "https://odisharising.in/",
+            "Partner_Description": "Started in 2018, in rural Odisha's heartlands, where tribal communities urgently need educational support. ORF’s initiative introduces a tailored STEM Education Program to all schools in Kalahandi District. ORF aims not only to teach but to inspire a love for learning, preparing students for a tech-driven world."
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 38,
+          "NAS_Grade3": 56.5,
+          "NAS_Grade5": 48,
+          "NAS_Grade8": 41.3,
+          "TotalSchools": 75558,
+          "TotalStudents": 21989445
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 38,
+          "ShikshagrahaPartners": 4,
+          "ProgramsStarted": 68,
+          "SchoolsReached": 85000,
+          "StudentsReached": 30000000,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 521008
+        },
+        "StateName": "Bihar",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 45.1,
+              "NAS_Grade3": 53.2,
+              "NAS_Grade8": 41.7,
+              "TotalSchools": 900,
+              "TotalStudents": 732750
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Involve EDU",
+              "SchoolsReached": 1955,
+              "StudentsReached": 636028,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 3668
+            },
+            "DistrictName": "Bhagalpur",
+            "Partner": "Involve EDU",
+            "Partner_Logo": "Copy of involve logo.jpg",
+            "Partner_Link": "http://www.involveedu.com/",
+            "Partner_Description": "InvolveEDU's program, JOSH, centers on establishing joyful learning environments for students. It aims to achieve NIPUN, enhance attendance and engagement for sustained learning, and foster holistic development by building essential skills and mindsets. InvolveEDU focuses on promoting joy, outcomes, sustainability, and holistic growth in education ",
+            "image": [
+              "Involve3.jpeg"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational District",
+              "NAS_Grade5": 40.4,
+              "NAS_Grade3": 46.6,
+              "NAS_Grade8": 35.8,
+              "TotalSchools": 840,
+              "TotalStudents": 256390
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Involve EDU",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Banka",
+            "Partner": "Involve EDU",
+            "Partner_Logo": "Copy of involve logo.jpg",
+            "Partner_Link": "http://www.involveedu.com/",
+            "Partner_Description": "InvolveEDU's program, JOSH, centers on establishing joyful learning environments for students. It aims to achieve NIPUN, enhance attendance and engagement for sustained learning, and foster holistic development by building essential skills and mindsets. InvolveEDU focuses on promoting joy, outcomes, sustainability, and holistic growth in education ",
+            "image": [
+              "Involve3.jpeg"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational & Tribal District",
+              "NAS_Grade5": 57.6,
+              "NAS_Grade3": 54.8,
+              "NAS_Grade8": 39.8,
+              "TotalSchools": 840,
+              "TotalStudents": 256390
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Happy Horizon Trust",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Madhepura",
+            "Partner": "Happy Horizon Trust",
+            "Partner_Logo": "happyHorizon.png",
+            "Partner_Link": "https://www.happyhorizons.org/",
+            "Partner_Description": "Happy Horizons Trust is a registered non-profit organization founded with the vision to improve the quality of education in schools across India and bridge the gap between students, teachers and parents. It has been in operations since early 2012. To create a systemic impact through local change-makers working closely with all stakeholders to strengthen the primary school education.",
+            "image": [
+              "HHT2.jpg"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational district",
+              "NAS_Grade5": 44.5,
+              "NAS_Grade3": 54.5,
+              "NAS_Grade8": 41.9,
+              "TotalSchools": 3094,
+              "TotalStudents": 1058245
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Karunodaya Foundation",
+              "SchoolsReached": 3094,
+              "StudentsReached": 1058245,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 329
+            },
+            "DistrictName": "Gaya",
+            "Partner": "Karunodaya Foundation",
+            "Partner_Logo": "Copy of Karunodaya.png",
+            "Partner_Link": "https://karunodaya.in/",
+            "Partner_Description": "Karunodaya Foundation maximizes teacher engagement through the Diksha App's Library Course, establishing libraries in five blocks with district and block-level support. They encourage headmasters via video conferences to implement library periods, fostering a storytelling culture and improving the school's image. Events promote widespread adoption, efficient library management, improved student literacy, and increased community involvement. The foundation also focuses on streamlining data collection and elevating the library program's profile for broader district-level discussion and analysis.",
+            "image": [
+              "karunodaya-5.jpg"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational district",
+              "NAS_Grade5": 49.2,
+              "NAS_Grade3": 53,
+              "NAS_Grade8": 42,
+              "TotalSchools": 3016,
+              "TotalStudents": 1175833
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "ShikshaLokam",
+              "SchoolsReached": 3253,
+              "StudentsReached": 1011579,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 566
+            },
+            "DistrictName": "Muzaffarpur",
+            "Partner": "ShikshaLokam ",
+            "Partner_Logo": "Shikshalokam.webp",
+            "Partner_Link": "https://shikshalokam.org/",
+            "Partner_Description": "ShikshaLokam collaborates with education authorities like DoSEL, MoE, NCERT, CBSE, and NCTE to enhance educational leadership, governance, and monitoring systems. Through initiatives like the Vidya Amrit Initiative and DIKSHA, they aim to improve education quality and access. Additionally, partnerships with CBSE and NCTE facilitate the implementation of frameworks like School Quality Assessment and the National Mission on Mentoring, contributing to comprehensive educational development.",
+            "image": [
+              "SL1.jpeg"
+            ]
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 75,
+          "NAS_Grade3": 55.2,
+          "NAS_Grade5": 46.6,
+          "NAS_Grade8": 37.9,
+          "TotalSchools": 137024,
+          "TotalStudents": 19056651
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 1,
+          "SchoolsReached": 1006,
+          "StudentsReached": 400000,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 958
+        },
+        "StateName": "Uttar Pradesh",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 47.7,
+              "NAS_Grade3": 59.4,
+              "NAS_Grade8": 39.8,
+              "TotalSchools": 3956,
+              "TotalStudents": 522604
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "-",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "RaeBareli",
+            "Partner": "Barefoot",
+            "Partner_Logo": "barefoot.png",
+            "Partner_Link": "https://barefootedu.com/"
+          },
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 46.1,
+              "NAS_Grade3": 58.6,
+              "NAS_Grade8": 37.4,
+              "TotalSchools": 1040,
+              "TotalStudents": 468697
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Involve EDU",
+              "SchoolsReached": 1006,
+              "StudentsReached": 400000,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 958
+            },
+            "DistrictName": "Sambhal",
+            "Partner": "Involve EDU",
+            "Partner_Logo": "Copy of involve logo.jpg",
+            "Partner_Link": "http://www.involveedu.com/",
+            "Partner_Description": "InvolveEDU's program, JOSH, centers on establishing joyful learning environments for students. It aims to achieve NIPUN, enhance attendance and engagement for sustained learning, and foster holistic development by building essential skills and mindsets. InvolveEDU focuses on promoting joy, outcomes, sustainability, and holistic growth in education ",
+            "image": [
+              "up_Involve2.jpeg"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational district",
+              "NAS_Grade5": 55.1,
+              "NAS_Grade3": 56.5,
+              "NAS_Grade8": 37.1,
+              "TotalSchools": 3956,
+              "TotalStudents": 522604
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Prajayatna",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Bahraich",
+            "Partner": "Prajayatna",
+            "Partner_Logo": "Copy of Prajayatna logo.jpg",
+            "Partner_Link": "https://www.prajayatna.in/"
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 22,
+          "NAS_Grade3": 55.4,
+          "NAS_Grade5": 30.3,
+          "NAS_Grade8": 48,
+          "TotalSchools": 14562,
+          "TotalStudents": 2602484
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 1,
+          "SchoolsReached": 177,
+          "StudentsReached": 8000,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "StateName": "Haryana",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 51.3,
+              "NAS_Grade3": 56.6,
+              "NAS_Grade8": 35.8,
+              "TotalSchools": 292,
+              "TotalStudents": 176417
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Alohomora",
+              "SchoolsReached": 177,
+              "StudentsReached": 8000,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Jhajjar",
+            "Partner": "Alohomora",
+            "Partner_Logo": "Copy of Alohomora.jpg",
+            "Partner_Link": "https://www.alohomora.org/",
+            "image": [
+              "Alohomora_Haryana.jpg"
+            ],
+            "Partner_Description": "Alohomora's Pratibha Manthan Program in Jhajjar district, led by the Deputy Commissioner and City Magistrate, has achieved significant success and positive feedback. The program features monthly progress reviews, over 90 on-ground school visits, and 4000 student participants. With demonstration sessions, role model interactions, and career planning activities, the program has made a substantial impact. Impact assessments in 30 selected schools, involving 1336 students and 35 teachers, highlight its effectiveness in empowering students and improving career prospects."
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 20,
+          "NAS_Grade3": 61.5,
+          "NAS_Grade5": 38.9,
+          "NAS_Grade8": 46.5,
+          "TotalSchools": 23173,
+          "TotalStudents": 1473368
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 0,
+          "SchoolsReached": 0,
+          "StudentsReached": 0,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 0
+        },
+        "StateName": "Jammu and Kashmir",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 62.6,
+              "NAS_Grade3": 71.6,
+              "NAS_Grade8": 55.7,
+              "TotalSchools": 512,
+              "TotalStudents": 162405
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Eduweave",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Srinagar",
+            "Partner": "EduWeave",
+            "Partner_Logo": "Copy of Edweave foundation.jfif",
+            "Partner_Link": "https://eduweavefoundation.org/",
+            "Partner_Description": "EduWeave ensures readiness of children for school by enhancing foundational skills in Anganwadis. They empower stakeholders in Early Childhood Care and Education (ECCE), fostering a shared vision. Working with teachers on curriculum and pedagogy, Edu Weave ensures the effective implementation of developmentally appropriate experiences for holistic child development.",
+            "image": [
+              "Edu1.jpeg"
+            ]
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 31,
+          "NAS_Grade3": 58.8,
+          "NAS_Grade5": 33,
+          "NAS_Grade8": 41.2,
+          "TotalSchools": 49679,
+          "TotalStudents": 5445989
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 9,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 9,
+          "SchoolsReached": 5150,
+          "StudentsReached": 452925,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 5441
+        },
+        "StateName": "Karnataka",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 46.1,
+              "NAS_Grade3": 56.3,
+              "NAS_Grade8": 37.9,
+              "TotalSchools": 1481,
+              "TotalStudents": 28196
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Mantra4Change",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Bengaluru Rural",
+            "Partner": "Mantra4Change",
+            "Partner_Logo": "Copy of Copy of MANTRA.png",
+            "Partner_Link": "https://www.mantra4change.org/",
+            "Partner_Description": "Mantra4Change's School Leadership Development Program empowers high school leaders to cultivate competencies, mindsets, and supportive communities for school improvement. Beyond direct school and cluster engagement, they collaborate with state departments, including the Department of Education, SCERT, and district institutes like DIETs. Co-creating programs with key stakeholders, Mantra4Change focuses on leadership capacity development, reimagining state structures, and fostering transparency and accountability through technology-enabled data-driven decision-making.",
+            "image": [
+              "M4C.JPG"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 47.6,
+              "NAS_Grade3": 53.6,
+              "NAS_Grade8": 44,
+              "TotalSchools": 1607,
+              "TotalStudents": 105896
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Mantra4Change",
+              "SchoolsReached": 1304,
+              "StudentsReached": 136812,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 3783
+            },
+            "DistrictName": "Bengaluru Urban",
+            "Partner": "Mantra4Change",
+            "Partner_Logo": "Copy of Copy of MANTRA.png",
+            "Partner_Link": "https://www.mantra4change.org/",
+            "Partner_Description": "Mantra4Change's School Leadership Development Program empowers high school leaders to cultivate competencies, mindsets, and supportive communities for school improvement. Beyond direct school and cluster engagement, they collaborate with state departments, including the Department of Education, SCERT, and district institutes like DIETs. Co-creating programs with key stakeholders, Mantra4Change focuses on leadership capacity development, reimagining state structures, and fostering transparency and accountability through technology-enabled data-driven decision-making.",
+            "image": [
+              "M4C.JPG"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 46.1,
+              "NAS_Grade3": 56.3,
+              "NAS_Grade8": 37.9,
+              "TotalSchools": 1481,
+              "TotalStudents": 28196
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Mantra4Change",
+              "SchoolsReached": 84,
+              "StudentsReached": 14182,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 49
+            },
+            "DistrictName": "Bidar",
+            "Partner": "Mantra4Change",
+            "Partner_Logo": "Copy of Copy of MANTRA.png",
+            "Partner_Link": "https://www.mantra4change.org/",
+            "Partner_Description": "Mantra4Change's School Leadership Development Program empowers high school leaders to cultivate competencies, mindsets, and supportive communities for school improvement. Beyond direct school and cluster engagement, they collaborate with state departments, including the Department of Education, SCERT, and district institutes like DIETs. Co-creating programs with key stakeholders, Mantra4Change focuses on leadership capacity development, reimagining state structures, and fostering transparency and accountability through technology-enabled data-driven decision-making.",
+            "image": [
+              "M4C.JPG"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 40.3,
+              "NAS_Grade3": 51.3,
+              "NAS_Grade8": 38.2,
+              "TotalSchools": 1875,
+              "TotalStudents": 443914
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Makkala Jagrithi",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Mysuru",
+            "Partner": "Makkala Jagrithi",
+            "Partner_Logo": "Copy of Makkala Jagriti logo.png",
+            "Partner_Link": "https://makkalajagriti.org/",
+            "Partner_Description": "Makkala Jagriti is a nonprofit organization, we work towards empowering children and youth from marginalized communities through a holistic approach to learning. Since 2003, Makkala Jagriti has been facilitating children and youth to overcome their socio-economic roadblocks and embrace their true potential by creating conducive learning environments and using a holistic approach.",
+            "image": [
+              "MJ.jpg"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 44.5,
+              "NAS_Grade3": 54.9,
+              "NAS_Grade8": 37.5,
+              "TotalSchools": 1775,
+              "TotalStudents": 561253
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Mantra4Change",
+              "SchoolsReached": 296,
+              "StudentsReached": 66269,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 251
+            },
+            "DistrictName": "Kalaburagi",
+            "Partner": "Mantra4Change",
+            "Partner_Logo": "Copy of Copy of MANTRA.png",
+            "Partner_Link": "https://www.mantra4change.org/",
+            "image": [
+              "M4C.JPG"
+            ],
+            "Partner_Description": "Mantra4Change's School Leadership Development Program empowers high school leaders to cultivate competencies, mindsets, and supportive communities for school improvement. Beyond direct school and cluster engagement, they collaborate with state departments, including the Department of Education, SCERT, and district institutes like DIETs. Co-creating programs with key stakeholders, Mantra4Change focuses on leadership capacity development, reimagining state structures, and fostering transparency and accountability through technology-enabled data-driven decision-making."
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational District",
+              "NAS_Grade5": 50.5,
+              "NAS_Grade3": 64.6,
+              "NAS_Grade8": 44.4,
+              "TotalSchools": 2532,
+              "TotalStudents": 420860
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Mantra4Change",
+              "SchoolsReached": 115,
+              "StudentsReached": 35870,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 113
+            },
+            "DistrictName": "Raichur",
+            "Partner": "Mantra4Change",
+            "Partner_Logo": "Copy of Copy of MANTRA.png",
+            "Partner_Link": "https://www.mantra4change.org/",
+            "Partner_Description": "Mantra4Change's School Leadership Development Program empowers high school leaders to cultivate competencies, mindsets, and supportive communities for school improvement. Beyond direct school and cluster engagement, they collaborate with state departments, including the Department of Education, SCERT, and district institutes like DIETs. Co-creating programs with key stakeholders, Mantra4Change focuses on leadership capacity development, reimagining state structures, and fostering transparency and accountability through technology-enabled data-driven decision-making.",
+            "image": [
+              "M4C.JPG"
+            ]
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational District",
+              "NAS_Grade5": 50.5,
+              "NAS_Grade3": 49.9,
+              "NAS_Grade8": 39.5,
+              "TotalSchools": 1607,
+              "TotalStudents": 265952
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Mantra4Change",
+              "SchoolsReached": 141,
+              "StudentsReached": 41088,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 221
+            },
+            "DistrictName": "Yadgir",
+            "Partner": "Mantra4Change",
+            "Partner_Logo": "Copy of Copy of MANTRA.png",
+            "Partner_Link": "https://www.mantra4change.org/",
+            "image": [
+              "M4C.JPG"
+            ],
+            "Partner_Description": "Mantra4Change's School Leadership Development Program empowers high school leaders to cultivate competencies, mindsets, and supportive communities for school improvement. Beyond direct school and cluster engagement, they collaborate with state departments, including the Department of Education, SCERT, and district institutes like DIETs. Co-creating programs with key stakeholders, Mantra4Change focuses on leadership capacity development, reimagining state structures, and fostering transparency and accountability through technology-enabled data-driven decision-making."
+          },
+          {
+            "EducationalParameters": {
+              "Type": "Aspirational District",
+              "NAS_Grade5": 47.1,
+              "NAS_Grade3": 59.7,
+              "NAS_Grade8": 36.4,
+              "TotalSchools": 748,
+              "TotalStudents": 126988
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "SVYM",
+              "SchoolsReached": 0,
+              "StudentsReached": 0,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 0
+            },
+            "DistrictName": "Chamarajanagara",
+            "Partner": "SVYM",
+            "Partner_Logo": "SVYM.jpeg",
+            "Partner_Link": "https://svym.org/",
+            "Partner_Description": "Swami Vivekananda Youth Movement (SVYM) is a development organisation engaged in building a new civil society in India through its grassroots to policy level action in Health, Education, Socio economic Empowerment and Training & Research sectors since 1984. ",
+            "image": [
+              "SVYM.png"
+            ]
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 38,
+          "NAS_Grade3": 57.6,
+          "NAS_Grade5": 27.7,
+          "NAS_Grade8": 35.9,
+          "TotalSchools": 37592,
+          "TotalStudents": 4642842
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 1,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 1,
+          "SchoolsReached": 181,
+          "StudentsReached": 5000,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 123
+        },
+        "StateName": "Tamil Nadu",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 48.2,
+              "NAS_Grade3": 54.8,
+              "NAS_Grade8": 33.5,
+              "TotalSchools": 1364,
+              "TotalStudents": 236365
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Vidya Vidhai",
+              "SchoolsReached": 181,
+              "StudentsReached": 5000,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 123
+            },
+            "DistrictName": "Nagapattinam",
+            "Partner": "Vidya Vidhai",
+            "Partner_Logo": "Copy of Vidhya Vidhai.png",
+            "Partner_Link": "https://vidhyavidhai.org/",
+            "image": [
+              "VidhyaVidhai_Nagapattinam1.jpeg",
+              "VidhyaVidhai_Nagapattinam2.jpeg"
+            ],
+            "Partner_Description": "Vidya Vidhai's School House System in Nagapattinam Government schools is a transformative educational initiative. It addresses multifaceted challenges by fostering a nurturing and inclusive learning environment. Through competition, mentorship, and inclusivity, it aims to cultivate academically proficient, socially responsible, and emotionally resilient individuals, ensuring every student has the opportunity to thrive and contribute to society positively."
+          }
+        ]
+      },
+      {
+        "EducationalParameters": {
+          "Districts": 23,
+          "NAS_Grade3": 57.6,
+          "NAS_Grade5": 27.7,
+          "NAS_Grade8": 35.9,
+          "TotalSchools": 0,
+          "TotalStudents": 0
+        },
+        "ProgramParameters": {
+          "ShikshagrahaDistricts": 4,
+          "ShikshagrahaPartners": 1,
+          "ProgramsStarted": 4,
+          "SchoolsReached": 1198,
+          "StudentsReached": 121672,
+          "EducationalLeadersInvolved": 0,
+          "MicroImprovementsTriggered": 6000
+        },
+        "StateName": "Punjab",
+        "Districts": [
+          {
+            "EducationalParameters": {
+              "Type": "NA",
+              "NAS_Grade5": 48.2,
+              "NAS_Grade3": 54.8,
+              "NAS_Grade8": 33.5,
+              "TotalSchools": 1364,
+              "TotalStudents": 236365
+            },
+            "ProgramParameters": {
+              "ShikshagrahaPartner": "Vidya Vidhai",
+              "SchoolsReached": 181,
+              "StudentsReached": 5000,
+              "EducationalLeadersInvolved": 0,
+              "MicroImprovementsTriggered": 123
+            },
+            "DistrictName": "Nagapattinam",
+            "Partner": "Vidya Vidhai",
+            "Partner_Logo": "Copy of Vidhya Vidhai.png",
+            "Partner_Link": "https://vidhyavidhai.org/",
+            "image": [
+              "VidhyaVidhai_Nagapattinam1.jpeg",
+              "VidhyaVidhai_Nagapattinam2.jpeg"
+            ],
+            "Partner_Description": "Vidya Vidhai's School House System in Nagapattinam Government schools is a transformative educational initiative. It addresses multifaceted challenges by fostering a nurturing and inclusive learning environment. Through competition, mentorship, and inclusivity, it aims to cultivate academically proficient, socially responsible, and emotionally resilient individuals, ensuring every student has the opportunity to thrive and contribute to society positively."
+          }
+        ]
+      }
+    ],
+    "logo": "Copy of Shikshagraha - Font (2).png"
+  }
+}

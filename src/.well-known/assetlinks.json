@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "org.shikshagraha.app",
+      "sha256_cert_fingerprints": [
+        "52:2C:AB:5C:1C:E3:5A:EF:87:79:2A:68:5A:90:41:A8:9E:7C:4A:CF:B1:33:22:15:57:79:00:AB:8E:24:90:54",
+        "48:8E:F5:75:DD:69:76:E6:3B:31:4D:EF:B0:A4:AB:3C:39:AF:15:2C:62:43:10:C3:A7:6D:DB:39:83:63:D8:2A"
+      ]
+    }
+  }
+]
